@@ -1,8 +1,8 @@
 ---
-title: Myllah Recettes
+title: Notebooks, Machine Learning
 publishDate: 2020-03-04 00:00:00
-img: /assets/notebooks.png
-img_alt: Myllah Recettes
+img: /assets/notebooks.jpg
+img_alt: Une intelligence artificielle
 description: |
   Listes de Notebooks sur github, lien inclus par depot vers colabs
 tags:
