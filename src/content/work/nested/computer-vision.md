@@ -19,6 +19,11 @@ tags:
 
 #### Detectiond'objets avec Yolov8
 
-<iframe width="560" height="315" src="https://youtu.be/2moqd_UaFwY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="/assets/mp4/prague.mp4" frameborder="0" allowfullscreen></iframe>
 
-Si l'intégration ne fonctionne pas : <https://youtu.be/2moqd_UaFwY>
+#### Notebooks Colab Computer Vision
+
+<https://github.com/salim4n/Mes-Notebooks/blob/main/Wasted.ipynb>
+
+<https://github.com/salim4n/Mes-Notebooks/blob/main/Tf_mnist.ipynb>
+
