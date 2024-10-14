@@ -1,6 +1,6 @@
 ---
 title: Pretorian Extension Chrome
-publishDate: 2024-10-12 00:00:00
+publishDate: 2024-10-09 00:00:00
 img: /assets/bot_extension.png
 img_alt: Pretorian web
 description: |

@@ -22,13 +22,15 @@ tags:
 
 Ce projet démontre la puissance de l'exécution de modèles de vision par ordinateur directement dans le navigateur à l'aide de TensorFlow.js (tfjs) et WebGL.
 
-[![Alt text](https://img.youtube.com/vi/fO3A9giDCVk/hqdefault.jpg)](https://www.youtube.com/watch?v=fO3A9giDCVk)
+- Vidéo de présentation
+  [![Alt text](https://img.youtube.com/vi/fO3A9giDCVk/hqdefault.jpg)](https://www.youtube.com/watch?v=fO3A9giDCVk)
 
 Il présente des implémentations des modèles YOLO et COCO-SSD pour la détection d'objets, toutes traitées côté client.
 
 Cette approche réduit considérablement les coûts de serveur en limitant les requêtes API uniquement lorsque des détections se produisent, ce qui la rend idéale pour les entreprises et les développeurs à la recherche de solutions de vision par ordinateur efficaces et rentables.
 
-[![Alt text](https://img.youtube.com/vi/dR8T9lc4BgE/hqdefault.jpg)](https://www.youtube.com/watch?v=dR8T9lc4BgE)
+- Vidéo de présentation
+  [![Alt text](https://img.youtube.com/vi/dR8T9lc4BgE/hqdefault.jpg)](https://www.youtube.com/watch?v=dR8T9lc4BgE)
 
 #### Caractéristiques
 

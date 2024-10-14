@@ -20,4 +20,5 @@ tags:
 
 Cette vidéo est une présentation de mes anciens projets Dotnet Core.
 
-[![Alt text](https://img.youtube.com/vi/BHwRdmoW8N8/hqdefault.jpg)](https://www.youtube.com/watch?v=BHwRdmoW8N8)
+- Vidéo de présentation
+  [![Alt text](https://img.youtube.com/vi/BHwRdmoW8N8/hqdefault.jpg)](https://www.youtube.com/watch?v=BHwRdmoW8N8)
