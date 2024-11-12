@@ -1,43 +1,50 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
+
 <!-- comm -->
-<BaseLayout title="A Propos | Salim Laimeche" description="A propos Salim Laimeche">
+<BaseLayout
+	title="A Propos | Salim Laimeche"
+	description="A propos Salim Laimeche">
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="A propos"
-				tagline=" "
-			>
-				<img
-					width="600"
-					height="600"
-					src="/assets/fennec_sympa.jpg"
-					alt=""
-				/>
+			<Hero title="A propos" tagline=" ">
+				<img width="600" height="600" src="/assets/salim_ai.gif" alt="" />
 			</Hero>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<h5>
-						<strong>Ingénieur logiciel certifié Azure et TensorFlow</strong>, je propose des solutions complètes de <em>MLOps</em> et <em>d'inférence IA</em>, avec une expertise particulière en <em>vision par ordinateur.</em></h5>
-
-						
+						<strong>Ingénieur logiciel certifié Azure et TensorFlow</strong>, je
+						propose des solutions complètes de <em>MLOps</em> et <em
+							>d'inférence IA</em
+						>, avec une expertise particulière en <em
+							>vision par ordinateur.</em>
+					</h5>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Services proposés </h2>
+				<h2 class="section-title">Services proposés</h2>
 				<div class="content">
 					<ul>
-						<li>Développement de solutions de <em>vision par ordinateur</em> personnalisées</li>
-						<li>Intégration de l'IA dans des applications web (React, Next.js)</li>
-						<li>Optimisation de modèles pour le <em>edge computing</em> et les applications mobiles</li>
+						<li>
+							Développement de solutions de <em>vision par ordinateur</em> personnalisées
+						</li>
+						<li>
+							Intégration de l'IA dans des applications web (React, Next.js)
+						</li>
+						<li>
+							Optimisation de modèles pour le <em>edge computing</em> et les applications
+							mobiles
+						</li>
 						<li>Création de pipelines <em>MLOps</em> robustes et évolutifs</li>
-						<li>Déploiement de modèles d'inférence optimisés (WebGL, API REST)</li>
+						<li>
+							Déploiement de modèles d'inférence optimisés (WebGL, API REST)
+						</li>
 					</ul>
 				</div>
 			</section>
@@ -45,23 +52,29 @@ import Hero from '../components/Hero.astro';
 			<section>
 				<h2 class="section-title">Expertise</h2>
 				<div class="content">
-						<ul>
-							<li><strong>Frameworks</strong> : TensorFlow, PyTorch, ONNX Runtime</li>
-							<li><strong>Langages</strong> : Python, TypeScript, C#, Rust</li>
-							<li><strong>Cloud</strong> : Azure (certifié), expérience multi-cloud</li>
-							<li><strong>Web</strong> : React, Next.js, WebGL</li>
-							<li><strong>MLOps</strong> : CI/CD pour ML, monitoring de modèles, gestion de versions</li>
-						</ul>
-
-
+					<ul>
+						<li>
+							<strong>Frameworks</strong> : TensorFlow, PyTorch, ONNX Runtime
+						</li>
+						<li><strong>Langages</strong> : Python, TypeScript, C#, Rust</li>
+						<li>
+							<strong>Cloud</strong> : Azure (certifié), expérience multi-cloud
+						</li>
+						<li><strong>Web</strong> : React, Next.js, WebGL</li>
+						<li>
+							<strong>MLOps</strong> : CI/CD pour ML, monitoring de modèles, gestion
+							de versions
+						</li>
+					</ul>
 				</div>
 			</section>
 
 			<section>
 				<h2 class="section-title">Projets phares</h2>
 				<div class="content">
-					<p>	
-						<strong>Pretorian</strong> : Système SaaS de détection d'images en temps réel utilisant YOLOv8 et TensorFlow.js
+					<p>
+						<strong>Pretorian</strong> : Système SaaS de détection d'images en temps
+						réel utilisant YOLOv8 et TensorFlow.js
 					</p>
 				</div>
 			</section>
@@ -69,17 +82,17 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Mon approche</h2>
 				<div class="content">
 					<p>
-						Je m'engage à fournir des solutions IA performantes, évolutives et faciles à intégrer, adaptées aux besoins spécifiques de chaque entreprise. De la conception à la maintenance, je vous accompagne à chaque étape pour assurer le succès de vos projets IA.
-					</p>
-
+						Je m'engage à fournir des solutions IA performantes, évolutives et
+						faciles à intégrer, adaptées aux besoins spécifiques de chaque
+						entreprise. De la conception à la maintenance, je vous accompagne à
+						chaque étape pour assurer le succès de vos projets IA.
 					</p>
 				</div>
 			</section>
-
 		</main>
-
-		<ContactCTA />
 	</div>
+
+	<ContactCTA />
 </BaseLayout>
 
 <style>
