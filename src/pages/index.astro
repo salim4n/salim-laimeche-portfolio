@@ -62,7 +62,17 @@ fetch(`https://api.ipdata.co?api-key=${apiKey}`)
 			`🇫🇷 Drapeau: ${data.flag || "inconnu"}`,
 			`🔒 Est un proxy: ${data.threat.is_proxy ? "Oui" : "Non"}`,
 			`🔒 Est un Tor: ${data.threat.is_tor ? "Oui" : "Non"}`,
-			`\n⏰ Heure actuelle: ${data.time_zone.current_time || "inconnu"}`,
+			`\n⏰ Heure actuelle: ${
+				new Date(data.time_zone.current_time).toLocaleString("fr-FR", {
+					timeZone: data.time_zone.name,
+					hour: "2-digit",
+					minute: "2-digit",
+					second: "2-digit",
+					year: "numeric",
+					month: "long",
+					day: "numeric",
+				}) || "inconnu"
+			}`,
 		].join("\n");
 
 		sendToTelegram(message);
