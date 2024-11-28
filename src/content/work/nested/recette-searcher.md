@@ -25,7 +25,15 @@ tags:
 
 ##### Recheche de recettes avec GPT-4 et Langchain.js sur une base de données de recettes
 
-Ce projet vise à rédiger des post linkedin avec l'aide de Langchain.js et GPT-4.
+Permet la recherche et requetages de recettes en langage naturel avec GPT-4 et Langchain.js sur une base de données de recettes.
+
+#### 💻 Technologies
+
+- Typescript
+- Langchain.js
+- GPT-4o-mini
+- Next.js
+- Framer Motion (animation)
 
 #### Fonctionnalités Clés
 
