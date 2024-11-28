@@ -16,7 +16,8 @@ tags:
 
 ---
 
-<https://ignite-ai.vercel.app/>
+- Vidéo de présentation
+  [![Alt text](https://img.youtube.com/vi/LhCQTzwa-SU/hqdefault.jpg)](https://www.youtube.com/watch?v=LhCQTzwa-SU)
 
 ##### Utilisation de Langchain pour rédiger mes post linkedin
 
